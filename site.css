@@ -1,1 +1,17 @@
+.nav {
+  position: absolute;
+  height: 150px;
+  background-color: #ffdbaa;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.navbar {
+  display: inline-block;
+  background-color: #222222;
+  color: white;
+}
 
+#home {
+  top: 0;
+  left: 500;
+}
