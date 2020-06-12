@@ -1,17 +1,62 @@
-.nav {
-  position: absolute;
-  height: 150px;
-  background-color: #ffdbaa;
-  width: 100%;
-  border-bottom: 1px solid black;
-}
-.navbar {
-  display: inline-block;
-  background-color: #222222;
-  color: white;
+
+header {
+position: relative;
+top: 0px;  
+height: 40px;
+background-color: #222222;
+color: white;
 }
 
-#home {
-  top: 0;
-  left: 500;
+span {
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+#home{
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  margin-left: 5px;
+}
+#login{
+  position: absolute;
+  top: 10px;
+  left: 170px;
+  margin-left: 5px;
+}
+#textbox{
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  margin-left: 5px;
+}
+#searchButton{
+  position: absolute;
+  top: 10px;
+  left: 700px;
+  margin-left: 5px;
+}
+#backtoresults{
+  background-color: dimgray;
+  height:30px;
+  text-align: left;
+  color: rgb(212, 184, 24);
+  padding-top: 10px;
+}
+
+#loginButton {
+  background-color: royalblue;
+  color:white;
+  border-radius: 3px;
+  font-size: small;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  text-align: center;
+}
+
+.labels {
+  text-align: left;
 }

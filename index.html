@@ -5,27 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="site.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
-  </head>
+ <head>
   <body>
-    <header class="navbar">
-      <h1>GMDB</h1>
-      <div id="menu">
-        <button>Home</button>
-        <button>Login</button>
-        <input type="text" id="textbox" placeholder="Search" />
-        <input type="button" id="searchButton" value="Search" />
+    <header>
+      <div id="menu" class="links">
+        <span>GMDB</span>
+        <button id="home" class="leftside">Home</button>
+        <button id="login" class="leftside">Login</button>
+        <input type="text" class="rightside" id="textbox" placeholder="Search" />
+        <input type="button" class="rightside" id="searchButton" value="Search" />
       </div>
     </header>
-    <!--<header>
-      <div id="title" class="navbar">
-        <h3>GMDB</h3>
-      </div>
-      <nav>
-        <button id="home" class="navbar">Home</button>
-        <button id="login" class="navbar">Login</button>
-        <input type="text" id="textbox" placeholder="Search" />
-        <input type="button" id="searchButton" value="Search" />
-      </nav>
-    </header> -->
+    <section class="form">
+      <p id="backtoresults">Back to results</p>
+      <h2 class="loginBody">Login</h2>
+      <p>
+        <label for="email" class="labels">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="sample@sample.com"><br>
+        <label for="password" class="labels"> Password:</label><br>
+        <input type="password" name="password" id="password"><br><br>
+        <input type="submit" id="loginButton" value="Login">
+      </p>
+    </section>
+    <script src="site.js"></script>
   </body>
 </html>
